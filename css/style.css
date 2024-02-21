@@ -153,13 +153,14 @@ img{
 }
 
 .media-shop{
-    right: 0;
     width: 300px;
     height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
     justify-content: center;
     align-items: center;
     display: flex;
-    top: 0;
 }
 
 .media-shop svg{
@@ -168,4 +169,20 @@ img{
 
 .media-shop path{
     fill: #fff;
+}
+
+.media-shop a{
+    margin: 20px;
+}
+
+.media-shop a::nth-child(1) svg{
+    width: 30px;
+}
+
+.media-shop a::nth-child(2) svg{
+    margin-top:-5px ;
+}
+
+.media-shop a::nth-child(3) svg{
+    width: 25px;
 }
